@@ -1,0 +1,81 @@
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+/* a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+} */
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.el-header,
+.el-footer {
+  background-color: #409EFF;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-main {
+  padding: 20px;
+}
+
+.el-card {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #303133;
+}
+
+.el-form-item {
+  margin-bottom: 18px;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+.el-textarea {
+  width: 100%;
+}
+
+.span_shadow {
+  text-shadow: 1px 1px 8px rgba(127, 121, 121, 0.5);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .el-col {
+    margin-bottom: 20px;
+  }
+
+  .el-form-item label {
+    text-align: left;
+  }
+}
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
